@@ -1,0 +1,57 @@
+.main-card-container{
+    position: absolute;
+    top: 90px;
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    padding:0px 20px;
+    margin-left: 50px;
+}
+.card{
+    background: #fff;
+    border-radius: 5px;
+    text-align: left;
+    padding: 15px 5px;
+    width: 85%;
+    height: 120px;
+    /* margin:0px 20px; */
+    box-shadow:1px 1px 6px 1px  #a7a6a6;
+}
+.card h6{
+    font-size: 10px;
+}
+.year{
+    color: gray;
+}
+.light-blue{
+    color: rgb(105, 218, 255);
+}
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.orange{
+    color: orange;
+}
+.green{
+    color: green;
+}
+@media screen and (max-width: 768px){
+    .main-card-container{
+        margin: 0;
+    }
+    .card{
+        height: fit-content;
+    }
+}
+@media screen and (max-width: 480px){
+    .main-card-container{
+        margin: 0;
+    }
+    .card{
+        height: fit-content;
+    }
+}
